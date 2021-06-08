@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Balsamiq Sans', cursive;
+    
+        
+}
+
+.button
+{
+    margin-top: 30px;
+    
+    
+}
+
+.postFormButton
+{
+    background-color: transparent;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6), inset -4px -4px 4px rgba(0, 0, 0, 0.6);
+}
+.links, .postFormButton
+{
+    padding: 10px;
+    margin-left: 20px;
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.links:hover, .postFormButton:hover
+{
+    background-color: #bdbbbb;
+}
+
+.displayStatus
+{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6), inset -4px -4px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+.title, .post
+{
+    display: inline;
+}
+
+p
+{
+    display: block;
+}
+
+.linkSources
+{
+    display: block;
+    margin-top: 10px;
+}
+    
